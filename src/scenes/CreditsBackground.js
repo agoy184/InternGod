@@ -31,12 +31,8 @@ class CreditsBackground extends Phaser.Scene {
         }
 
         // menu text
-        this.add.text(game.config.width/2, game.config.height/9, 'Tileset Credits', menuConfig).setOrigin(0.5);
-        this.add.text(game.config.width/2, 2*game.config.height/9, 'Film game is based on: Tokyo Story (1953)', smallConfig).setOrigin(0.5);
-
-        // tile credits
-        this.add.text(game.config.width/3.5, game.config.height/2, '32 Pixel Art Japanese Themed Textures\nhttps://rekkimaru.itch.io/32-pixel-art-japanese-themed-textures', smallConfig).setWordWrapWidth(game.config.width / 1.5).setAlign('center').setFontSize(10).setOrigin(0.5);
-        this.add.text(game.config.width/1.3, game.config.height/2, 'AxulArt\'s BasicPlains Tileset\nhttps://axulart.itch.io/axularts-basicplains-tileset', smallConfig).setWordWrapWidth(game.config.width / 2).setAlign('center').setFontSize(10).setOrigin(0.5);
+        this.add.text(game.config.width/2, game.config.height/9, 'Asset/Program Credits', menuConfig).setOrigin(0.5);
+        this.add.text(game.config.width/2, 2*game.config.height/9, 'Made with Phaser 3.60 and FL Studio', smallConfig).setOrigin(0.5);
 
         // instructions
         this.add.text(game.config.width/1.35, 8*game.config.height/9, 'Press R to return to the title screen menu', smallConfig).setOrigin(0.5).setFontSize(12);
