@@ -26,10 +26,10 @@ class BarUIElement {
         this.endCap   = scene.add.sprite(centerX + length / 2, centerY, 'BarCap').setOrigin(0.5)
         this.endCap.flipX = true
 
-        this.startCap.scaleY = (width / 70) * 1.1
-        this.endCap.scaleY = (width / 70) * 1.1
-        this.barSprite.scaleY = width / 45
-        this.barSprite.scaleX = length / 190
+        this.startCap.displayHeight = width * 1.1
+        this.endCap.displayHeight = width * 1.1
+        this.barSprite.displayHeight = width 
+        this.barSprite.displayWidth = length * 1.05
     }
 
     updateProgress(amount){

@@ -23,7 +23,7 @@ class BarTestScene extends Phaser.Scene {
         )
 
         let progBarLength = 400
-        let progBarHeight = 40
+        let progBarHeight = 80
         this.progressBar = new BarUIElement(this, 
             game.config.width/2,
             game.config.height/2 + 100,
